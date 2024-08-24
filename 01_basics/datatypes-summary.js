@@ -31,3 +31,28 @@ let myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3  // for read more
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack  (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "VrajeshPatoliyadotcom"
+
+let anothername = myYoutubename
+anothername = "Codewithvajju"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Vrajesh@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

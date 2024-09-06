@@ -6,6 +6,6 @@
 })();   // to end the code, semicolon is required
 
 ( (name) => {
-    //unnamed IIFE
+    // unnamed IIFE
     console.log(`DB CONNECTED Two ${name}`);
 } )('Vrajesh')

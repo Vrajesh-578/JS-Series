@@ -9,6 +9,7 @@
 // console.log("tempreture is greater than 50");
 // }
 
+// console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
 
 // const score = 200

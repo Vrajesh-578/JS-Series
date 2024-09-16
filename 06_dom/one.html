@@ -12,8 +12,19 @@
 </head>
 <body  class="bg-black">
     <div>
-        <h1 id="title" class="heading">DOM Learning on Chai aur Code</h1>
+        <h1 id="title" class="heading">DOM Learning on Chai aur Code
+        <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
         <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
     </div>
 </body>
 </html>
@@ -30,3 +41,76 @@ document.getElementById('firstHeading').innerHTML = "<h1>Vrajesh Patoliya</h1>"
 after write above line press enter
 
 we can see the name was changed -->
+
+
+<!-- *************** Notes ***************
+ _____________________________________________ -->
+
+
+<!-- document.getElementById('title')
+this will give you selected element -->
+
+<!-- document.getElementById('title').id
+this will give you id element -->
+
+<!-- document.getElementById('title').className
+this will give you class element  -->
+
+<!-- document.getElementsByClassName('heading')
+it will give you the collection of the class   -->
+
+<!-- document.getElementById('title').getAttribute('id')
+this will give you id attribute element  
+you need to define what kind of attribute you need -->
+
+<!-- document.getElementById('title').getAttribute('id')
+this will give you class attribute element  
+you need to define what kind of attribute you need -->
+
+
+<!-- document.getElementById('title').setAttribute('class', 'test')
+it sets the attribute 
+like above, it sets the class attribute to test  -->
+
+<!-- const title = document.getElementById('title')
+we store it in variable 
+now you can access the variable by using variable name (above ex:- title) -->
+
+
+ <!-- ********** Styling ********** -->
+
+<!-- title.style.backgroundColor = 'green'
+it will set the green background color -->
+
+<!-- you can use all style in it
+for ex:- title.style.padding = "15px"
+for ex:- title.style.borderRadius = "15px"
+and many more... -->
+
+
+<!-- title.textContent
+The text content of the element and all descendaces, with spacing and CSS hidden text, but without tags -->
+
+<!-- title.innerHTML
+The text content of the element, including all spacing and inner HTML tags -->
+
+<!-- title.innerText
+Return the text content of an element or node -->
+
+<!-- title.innerText = 'five'
+it will change the the inner text -->
+
+<!-- document.querySelector('h2')
+it returns the first element that matches a CSS selector -->
+
+<!-- document.querySelector('#title')
+you can select id selector by using #(hash) -->
+
+<!-- document.querySelector('.heading')
+you can select id selector by using .(dot) -->
+
+<!-- document.querySelector('input')
+it will give you a input selector -->
+
+<!-- document.querySelector('input[type="password"]')
+you can get input's attribute using [](square brackets) -->

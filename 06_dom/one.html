@@ -21,9 +21,10 @@
         <input type="password" name="" id="">
 
         <ul>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
+            <li class="List-item">one</li>
+            <li class="List-item">two</li>
+            <li class="List-item">three</li>
+            <li class="List-item">four</li>
         </ul>
     </div>
 </body>
@@ -127,3 +128,35 @@ we cannot change it's style because it's a nodelist -->
 <!-- tempLiList[0].style.color = 'green'
 you need to define element to set the style -->
 
+<!-- tempLiList.forEach(function (l) {    
+})
+The forEach() method executes a callback function for each node in a NodeList
+we can call the function named l -->
+
+<!-- tempLiList.forEach(function (l) {
+    l.style.backgroundColor = 'green'
+})
+Through it, we can set the style in the function -->
+
+<!-- document.getElementsByClassName('List-item')
+we can get element whose class name is List-item 
+it gives HTML Collection -->
+
+<!-- const tempClassList = document.getElementsByClassName('List-item')
+we can store it in variable named tempClassList -->
+
+<!-- tempClassList.forEach(function (li) {
+    console.log(li)
+})
+it shows error because it is not array we need to convert it -->
+
+<!-- Array.from(tempClassList)
+it convert into Array -->
+
+<!-- const myConvertedArray = Array.from(tempClassList)
+now we can use foreEach -->
+
+<!-- myConvertedArray.forEach(function (li) {
+    li.style.color = 'orange'
+})
+now we can set the style using forEach -->
